@@ -61,7 +61,7 @@ Open terminal in the Jupyter Lab and create folders for model training and reque
 
 ---
 
-### 7 
+### 7. Model training
 Go to Models in Vertex AI console and click create.
 
 Check custom training and continue > 
@@ -76,4 +76,21 @@ choose your machine type as n1-standard-4 and continue >
 
 check custom container, choose your prediction container image and set the model path > 
 
-start training 
+start training
+
+---
+
+### 8. Create endpoint
+Go to Endpoints in Vertex AI console and click CREATE ENDPOINT.
+
+Enter endpoint name >
+
+Choose your trained model and choose machine type n1-standard-2 >
+
+Click create
+
+### 9. Request predictions
+If the endpoint creation successfully finished, you can request predictions to the endpoint.
+
+Go to Jupyter Lab and create a notebook.
+
