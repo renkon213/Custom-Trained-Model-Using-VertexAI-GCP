@@ -64,19 +64,19 @@ Open terminal in the Jupyter Lab and create folders for model training and reque
 ### 7. Model training
 Go to Models in Vertex AI console and click create.
 
-Check custom training and continue > 
+1. Check custom training and continue.
 
-enter model name and continue > 
+2. Enter model name and continue
 
-check custom container, choose your model training container image and set the model output path >
+3. Check custom container, choose your model training container image and set the model output path.
 
-skip hyperparameter tuning >
+4. Just ignore hyperparameter tuning for this project.
 
-choose your machine type as n1-standard-4 and continue >
+5. Choose the machine type as n1-standard-4 and continue.
 
-check custom container, choose your prediction container image and set the model path > 
+6. Check custom container, choose your prediction container image and set the model output path.
 
-start training
+7. Start training.
 
 ---
 
