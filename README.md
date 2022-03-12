@@ -74,9 +74,14 @@ Go to Models in Vertex AI console and click create.
 
 5. Choose the machine type as n1-standard-4 and continue.
 
-6. Check custom container, choose your prediction container image and set the model output path.
+6. Check custom container, choose your prediction container image and set the model path.
 
 7. Start training.
+
+* The model output path should have 'model' folder. Vertex AI recognizes your model in the model folder. The structure should be like the example below.
+gs://YOUR_BUCKET/YOUR_FOLDER/model/
+* Set the model output path in the step 3 and step 6 like the example below.
+gs://YOUR_BUCKET/YOUR_FOLDER
 
 ---
 
