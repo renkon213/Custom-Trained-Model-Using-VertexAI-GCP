@@ -79,8 +79,11 @@ Go to Models in Vertex AI console and click create.
 7. Start training.
 
 * The model output path should have 'model' folder. Vertex AI recognizes your model in the model folder. The structure should be like the example below.
+
 gs://YOUR_BUCKET/YOUR_FOLDER/model/
+
 * Set the model output path in the step 3 and step 6 like the example below.
+
 gs://YOUR_BUCKET/YOUR_FOLDER
 
 ---
