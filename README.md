@@ -74,7 +74,7 @@ Go to Models in Vertex AI console and click create.
 
 5. Choose the machine type as n1-standard-4 and continue.
 
-6. Check custom container, choose your prediction container image and set the model path.
+6. Check custom container, choose your prediction container image and set the model path. In the environmental section, set the prediction root as /predict, and set the health root as /health. 
 
 7. Start training.
 
@@ -91,11 +91,11 @@ gs://YOUR_BUCKET/YOUR_FOLDER
 ### 8. Create endpoint
 Go to Endpoints in Vertex AI console and click CREATE ENDPOINT.
 
-Enter endpoint name >
+1. Enter endpoint name.
 
-Choose your trained model and choose machine type n1-standard-2 >
+2. Choose your trained model and choose machine type n1-standard-2.
 
-Click create
+3. Click create.
 
 ### 9. Request predictions
 If the endpoint creation successfully finished, you can request predictions to the endpoint.
