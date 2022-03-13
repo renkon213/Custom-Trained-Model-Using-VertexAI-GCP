@@ -113,5 +113,5 @@ predictions = endpoint.predict('request')
 ```
 
 This is the picture of my model prediction.
-![predictions](img/predictions.png)
+![predictions](img/prediction.png)
 
