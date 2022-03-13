@@ -112,5 +112,6 @@ endpoint = aiplatform.Endpoint(
 predictions = endpoint.predict('request')
 ```
 
-
+This is the picture of my model prediction.
+![]
 
