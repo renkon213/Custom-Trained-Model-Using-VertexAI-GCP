@@ -1,0 +1,5 @@
+pandas
+google-cloud-bigquery[bqstorage,pandas]
+google-cloud-storage
+pystan==2.19.1.1
+fbprophet
