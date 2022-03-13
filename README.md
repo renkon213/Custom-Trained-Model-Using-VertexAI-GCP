@@ -5,13 +5,18 @@ This is a project to create an endpoint that you can request and get predictions
 
 ---
 
-### GCP Services used in this project
+### GCP services used in this project
 - Cloud Storage
 - BigQuery
 - Vertex AI
 - Container Registry
 
 ---
+
+### GCP architecture
+
+![gcp_architecture](img/gcp_architecture.png)
+
 
 ### 1. Download a csv file from Kaggle
 You can download the file from [here](https://www.kaggle.com/c/store-sales-time-series-forecasting/overview). For the simplication, I just downloaded train.csv.
@@ -112,6 +117,7 @@ endpoint = aiplatform.Endpoint(
 predictions = endpoint.predict('request')
 ```
 
-This is the picture of my model prediction.
+The picture below shows my model prediction.
+
 ![predictions](img/prediction.png)
 
