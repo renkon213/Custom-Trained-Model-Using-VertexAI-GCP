@@ -100,5 +100,17 @@ Go to Endpoints in Vertex AI console and click CREATE ENDPOINT.
 ### 9. Request predictions
 If the endpoint creation successfully finished, you can request predictions to the endpoint.
 
-Go to Jupyter Lab and create a notebook.
+Go to Jupyter Lab and create a notebook and use google-cloud-aiplatform library to request predictions. Look at the example code below.
+
+```
+from google.cloud import aiplatform
+
+endpoint = aiplatform.Endpoint(
+    endpoint_name="projects/YOUR_PROJECT_ID/locations/us-central1/endpoints/ENDPOINT_ID"
+)
+
+predictions = endpoint.predict('request')
+```
+
+
 
