@@ -1,4 +1,4 @@
-# Get-Predictions-Using-Custom-Trained-Model
+# Custom-Trained-Model-Using-Vertex (GCP)
 
 ### Intro
 This is a project to create an endpoint that you can request and get predictions from using your custom-trained model. The endpoint was created in Google Cloud. In this project, time series sales data was extracted from [Kaggle](https://www.kaggle.com/c/store-sales-time-series-forecasting/overview) and uploaded to Google Cloud Storage. The model that would be trained here is a model to forecast sales values in the future. The creating endpoint steps details are shown below.
